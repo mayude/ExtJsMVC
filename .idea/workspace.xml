@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ac360da-a9e8-440f-8431-9af9d960ab9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/MenuController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/MenuMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/MenuMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/MenuService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/MenuServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/MenuServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Page.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Pageable.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Pageable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Staff.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Staff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/StaffController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/StaffController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/StaffMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/StaffMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/StaffService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/StaffService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/StaffServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/StaffServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/User.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/UserController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/test/UserControllerTest.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/test/UserControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtJsMVC.iml" afterPath="$PROJECT_DIR$/ExtJsMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/menu/MainCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/menu/MainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/model/base/StaffModel.js" afterPath="$PROJECT_DIR$/WebContent/app/model/base/StaffModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/store/base/StaffStore.js" afterPath="$PROJECT_DIR$/WebContent/app/store/base/StaffStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/myd/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/jdbc.properties" afterPath="$PROJECT_DIR$/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="8ac360da-a9e8-440f-8431-9af9d960ab9f" name="Default" comment="myd">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExtJsMVC.iws" />
@@ -61,38 +28,7 @@
     <favorites_list name="ExtJsMVC" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StaffCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaffEditView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaffView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/app/view/base/StaffView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -268,6 +204,10 @@
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ExtJsMVC">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -698,7 +638,7 @@
       <workItem from="1445504317023" duration="2772000" />
       <workItem from="1445512614040" duration="1295000" />
       <workItem from="1445651583625" duration="11154000" />
-      <workItem from="1445591692298" duration="206000" />
+      <workItem from="1445591692298" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="myd">
       <created>1445507166674</created>
@@ -706,11 +646,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445507166675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="myd">
+      <created>1445591947871</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1445591947871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45709000" />
+    <option name="totallyTimeSpent" value="45869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,12 +673,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47523218" sideWeight="0.5058565" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14977974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32817337" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3374613" sideWeight="0.49048316" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,7 +695,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47523218" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -974,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47619048">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,6 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17990276">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,6 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46515396">
           <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,13 +1015,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18675722">
           <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state vertical-scroll-proportion="2.1185186">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1084,10 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
