@@ -5,22 +5,25 @@ Ext.define('HT.controller.base.StaffCtrl',{
     extend:'Ext.app.Controller',
     stores:['StaffStore@HT.store.base'],
     models:['HT.model.base.StaffModel'],
-    views: ['HT.view.base.StaffView'],
+    views: [
+        'HT.view.base.StaffView',
+        'HT.view.base.StaffEditView'
+    ],
 
     init:function(){
       this.control({
-          'viewport > staffview': {
-              //itemdblclick: this.editUser
-          },
+          //'viewport > staffview': {
+          //    itemdblclick: this.editUser
+          //},
 
-          'useredit button[action=save]': {
-              //click: this.updateUser
+          'button[id=btn-add]': {
+              click: this.editUser
           }
       });
     },
 
     editUser: function(grid, record) {
-        var edit = Ext.create('HT.view.user.Edit').show();
+        var edit = Ext.create('HT.view.base.StaffEditView').show();
 
         edit.down('form').loadRecord(record);
     },

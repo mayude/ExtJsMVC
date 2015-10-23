@@ -3,7 +3,7 @@
  */
 Ext.define('HT.store.base.StaffStore',{
     extend:'Ext.data.Store',
-    //requires:'HT.model.base.StaffModel',
+    requires:'HT.model.base.StaffModel',
     model:'HT.model.base.StaffModel',
     autoLoad:true,
     proxy:{

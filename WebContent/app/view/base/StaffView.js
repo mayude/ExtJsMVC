@@ -157,6 +157,7 @@ Ext.define('HT.view.base.StaffView' ,{
                 xtype : 'button',
                 text : '添加',
                 name : 'btn-add',
+                action:'save',
                 iconCls: 'btn-add'
             },{
                 xtype : 'button',
@@ -202,7 +203,7 @@ Ext.define('HT.view.base.StaffView' ,{
         xtype: 'pagingtoolbar',
         pageSize: 25,
         height : '30',
-        store : 'StaffStore', // 主要是取store中从后台返回的totalCount，以及在store中设置的pagesize，就可以进行分页。具体的数据分页在后台的sql语句中进行。
+        store :'StaffStore', // 主要是取store中从后台返回的totalCount，以及在store中设置的pagesize，就可以进行分页。具体的数据分页在后台的sql语句中进行。
         displayMsg : '{0}--{1},共{2}条记录',
         emptyMsg : '没有记录',
         displayInfo : true,

@@ -1,7 +1,6 @@
 package com.myd.controller;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import javax.annotation.Resource;
 
@@ -94,6 +93,19 @@ public class UserController {
         model.addObject("personList", personList);
         model.setViewName("/person.jsp");
         return model;
+    }
+
+    @RequestMapping("/session")
+    @ResponseBody
+    public Map<String,Object> session(){
+        User loginUser=new User();
+        loginUser.setUser_number("myd");
+        loginUser.setUser_name("马玉德");
+        loginUser.setFk_roles_pk("研发部");
+        loginUser.setUser_pk("1");
+        Map<String,Object> map =new HashMap<>();
+        map.put("loginUser",loginUser);
+        return map;
     }
 }
 

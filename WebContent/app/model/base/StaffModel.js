@@ -4,9 +4,9 @@
 
 Ext.define('HT.model.base.StaffModel', {
     extend: 'Ext.data.Model',
-    //requires: [
-    //    'Ext.data.reader.Json'
-    //],
+    requires: [
+        'Ext.data.reader.Json'
+    ],
 
     fields: [
         {name: 'staff_pk', type: 'string'},

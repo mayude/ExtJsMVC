@@ -62,26 +62,26 @@ Ext.define('HT.controller.menu.MainCtrl', {
 	getSessionInfo: function() {
 		Ext.Ajax.request({
 			async : false,
-	        url: 'session.action',
+	        url: '/ExtJsMVC/user/session.action',
 	        method: 'POST',
 	        success: function (response, options) {
 	        	//转码成json格式对象
 	        	var result = Ext.JSON.decode(response.responseText);
-	        	
-	        	if(null == result.map.loginUser) {
+	        	//log(result);
+	        	if(null == result.loginUser) {
 	        		location.href = "login.html";
 	        		return false;
 	        	}
 	        	//保存登录用户id
-	        	ACBEE.Ext.Util.loginUserId = result.map.loginUser.userId;
+	        	ACBEE.Ext.Util.loginUserId = result.loginUser.user_pk;
 	        	//保存登录的用户姓名
-	        	ACBEE.Ext.Util.loginUserName = Ext.String.trim(result.map.loginUser.userName);
+	        	ACBEE.Ext.Util.loginUserName = Ext.String.trim(result.loginUser.user_name);
 	        	
 	        	//取得欢迎文字对象，根据登录用户信息设置欢迎文字
 	        	var msgLabel = Ext.getCmp("welcomemsg"); 
 	    		if (msgLabel) { 
-	    			msgLabel.setText('欢迎您， ' + result.map.loginUser.dept + ' ' 
-	    				+ result.map.loginUser.staffName + '(' + result.map.loginUser.userName + ')');
+	    			msgLabel.setText('欢迎您， ' + result.loginUser.fk_roles_pk + ' '
+	    				+ result.loginUser.user_number + '(' + result.loginUser.user_name + ')');
 	    		}
 	        }
 	    });
