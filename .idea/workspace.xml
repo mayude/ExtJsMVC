@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ac360da-a9e8-440f-8431-9af9d960ab9f" name="Default" comment="myd 2015-10-28">
+    <list default="true" id="8ac360da-a9e8-440f-8431-9af9d960ab9f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" />
@@ -22,12 +22,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtJsMVC.iml" afterPath="$PROJECT_DIR$/ExtJsMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/serviceimpl/StaffServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/myd/serviceimpl/StaffServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/jdbc.properties" afterPath="$PROJECT_DIR$/resources/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExtJsMVC.iws" />
@@ -701,7 +696,7 @@
       <workItem from="1446024530666" duration="323000" />
       <workItem from="1446024965892" duration="129000" />
       <workItem from="1446025320931" duration="151000" />
-      <workItem from="1446532492142" duration="417000" />
+      <workItem from="1446532492142" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="myd">
       <created>1445507166674</created>
@@ -715,11 +710,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445591947871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="myd 2015-10-28">
+      <created>1446533020588</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1446533020588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47920000" />
+    <option name="totallyTimeSpent" value="47998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
