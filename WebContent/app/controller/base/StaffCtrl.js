@@ -16,16 +16,17 @@ Ext.define('HT.controller.base.StaffCtrl',{
           //    itemdblclick: this.editUser
           //},
 
-          'button[id=btn-add]': {
+          'staffview [action=save]': {
               click: this.editUser
           }
       });
     },
 
     editUser: function(grid, record) {
+
         var edit = Ext.create('HT.view.base.StaffEditView').show();
 
-        edit.down('form').loadRecord(record);
+        //edit.down('form').loadRecord(record);
     },
 
     updateUser: function(button) {

@@ -6,7 +6,7 @@ Ext.define('HT.view.base.StaffView' ,{
     alias : 'widget.staffview',
     //requires: ['HT.store.base.StaffStore'],
     title : '员工信息',
-    store: ['HT.store.base.StaffStore'],
+    store: 'StaffStore',
     dockedItems: [
         {
             xtype:'panel',

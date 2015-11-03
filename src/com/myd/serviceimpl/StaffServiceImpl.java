@@ -61,7 +61,7 @@ public class StaffServiceImpl<Staff> implements StaffService<Staff> {
         Page<Staff> page=new Page<>();
         page.setRows(staffs);
         page.setTotalCount(staffs.size());
-        page.setPage(page.getPage());
+        page.setPage(pageable.getPage());
         page.setTotal(list.size());
         return page;
     }
