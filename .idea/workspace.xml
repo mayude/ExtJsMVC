@@ -1,90 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d18a9a26-b224-44bf-9aa9-ac0cce991478" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/AjaxMessage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ExtJsMVC_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/controller/base/StaffEditCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/model/common/DictMdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/store/common/DictStr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffEditView_Bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffView_Bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/myd/utils/AjaxMessage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/ExtJsMVC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/MenuController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/MenuController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/StaffController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/StaffController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/UserController.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Staff.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/Staff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/User.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/BaseMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/MenuMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/MenuMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/StaffMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/StaffMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapper/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/BaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/MenuService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/MenuService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/StaffService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/StaffService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/MenuServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/MenuServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/StaffServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/StaffServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/serviceimpl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/test/UserControllerTest.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/test/UserControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Page.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Pageable.class" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/utils/Pageable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d18a9a26-b224-44bf-9aa9-ac0cce991478" name="Default" comment="staff">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtJsMVC.iml" afterPath="$PROJECT_DIR$/ExtJsMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapping/StaffMapper.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/myd/mapping/StaffMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/ehcache.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/ehcache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/spring-mvc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/spring-mybatis.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app.js" afterPath="$PROJECT_DIR$/WebContent/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/Users.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/base/StaffCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/menu/MainCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/menu/MainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controller/menu/MenuCtrl.js" afterPath="$PROJECT_DIR$/WebContent/app/controller/menu/MenuCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/model/User.js" afterPath="$PROJECT_DIR$/WebContent/app/model/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/model/base/StaffModel.js" afterPath="$PROJECT_DIR$/WebContent/app/model/base/StaffModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/model/menu/MenuModel.js" afterPath="$PROJECT_DIR$/WebContent/app/model/menu/MenuModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/store/Users.js" afterPath="$PROJECT_DIR$/WebContent/app/store/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/store/base/StaffStore.js" afterPath="$PROJECT_DIR$/WebContent/app/store/base/StaffStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/store/menu/MenuStore.js" afterPath="$PROJECT_DIR$/WebContent/app/store/menu/MenuStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/Viewport.js" afterPath="$PROJECT_DIR$/WebContent/app/view/Viewport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffEditView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/base/StaffView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/AboutView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/AboutView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/ContactView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/ContactView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/FooterView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/FooterView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/HeaderView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/HeaderView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/HelpView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/HelpView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/IndexView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/IndexView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/MenuView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/MenuView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/ModifyPwdView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/ModifyPwdView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/main/TabView.js" afterPath="$PROJECT_DIR$/WebContent/app/view/main/TabView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/user/Edit.js" afterPath="$PROJECT_DIR$/WebContent/app/view/user/Edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/view/user/List.js" afterPath="$PROJECT_DIR$/WebContent/app/view/user/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/appbak.js" afterPath="$PROJECT_DIR$/WebContent/appbak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.html" afterPath="$PROJECT_DIR$/WebContent/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/jdbc.properties" afterPath="$PROJECT_DIR$/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/com/myd/controller/MenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/controller/StaffController.java" afterPath="$PROJECT_DIR$/src/com/myd/controller/StaffController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/controller/UserController.java" afterPath="$PROJECT_DIR$/src/com/myd/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/entity/Staff.java" afterPath="$PROJECT_DIR$/src/com/myd/entity/Staff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/mapper/BaseMapper.java" afterPath="$PROJECT_DIR$/src/com/myd/mapper/BaseMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/mapping/StaffMapper.xml" afterPath="$PROJECT_DIR$/src/com/myd/mapping/StaffMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/service/BaseService.java" afterPath="$PROJECT_DIR$/src/com/myd/service/BaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/serviceimpl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/myd/serviceimpl/MenuServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/serviceimpl/StaffServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/myd/serviceimpl/StaffServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/myd/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/myd/serviceimpl/UserServiceImpl.java" />
     </list>
     <ignored path="ExtJsMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.36021507">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1130137">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -219,6 +142,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExtJsMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -228,7 +245,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -738,12 +755,19 @@
       <workItem from="1449652474861" duration="1984000" />
       <workItem from="1449721883857" duration="858000" />
       <workItem from="1449729269100" duration="844000" />
-      <workItem from="1449730747475" duration="2336000" />
+      <workItem from="1449730747475" duration="2680000" />
     </task>
+    <task id="LOCAL-00001" summary="staff">
+      <created>1449733210747</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1449733210747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6897000" />
+    <option name="totallyTimeSpent" value="7241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -758,7 +782,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -788,6 +812,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="staff" />
+    <option name="LAST_COMMIT_MESSAGE" value="staff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36021507">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1130137">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
