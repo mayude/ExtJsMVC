@@ -1,4 +1,4 @@
-Ext.define('HT.view.user.List' ,{
+Ext.define('QH.view.user.List' ,{
     extend: 'Ext.grid.Panel',
     alias : 'widget.userlist',
 

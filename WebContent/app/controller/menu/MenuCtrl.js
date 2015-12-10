@@ -3,14 +3,14 @@
  * @author 马玉德
  * @version 1.0.0, 2015-07-07
  */
-Ext.define('HT.controller.menu.MenuCtrl', {
+Ext.define('QH.controller.menu.MenuCtrl', {
 	extend: 'Ext.app.Controller', 
-   	stores: ['HT.store.menu.MenuStore'],  
-    models: ['HT.model.menu.MenuModel'],  
-    views:  ['HT.view.main.MenuView',
-             'HT.view.main.TabView',
-    		 'HT.view.main.HeaderView',
-    		 'HT.view.main.FooterView'	
+   	stores: ['QH.store.menu.MenuStore'],
+    models: ['QH.model.menu.MenuModel'],
+    views:  ['QH.view.main.MenuView',
+             'QH.view.main.TabView',
+    		 'QH.view.main.HeaderView',
+    		 'QH.view.main.FooterView'
     		],  
     //自动调用此方法
     init: function () {  

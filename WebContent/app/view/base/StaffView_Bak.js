@@ -36,16 +36,16 @@ Ext.define('QH.view.base.StaffView' ,{
                 },
                 items:[{
                     xtype:'textfield',
-                    fieldLabel:'姓名',
+                    fieldLabel:'库位号',
                     name:'locationNo',
                     labelWidth:90,
                     width:250,
-                    length:20,
-                    vtypeText : '姓名最多可输入20个字符',
+                    length:50,
+                    vtypeText : '库位号最多可输入50个字符',
                     vtype: 'limitLen'
                 },{
                     xtype:'combobox',
-                    fieldLabel:'性别',
+                    fieldLabel:'库位性质',
                     name:'natureId',
                     labelWidth:70,
                     width:230,
@@ -69,7 +69,7 @@ Ext.define('QH.view.base.StaffView' ,{
                     //})
                 },{
                     xtype:'combobox',
-                    fieldLabel:'生日',
+                    fieldLabel:'所属库区',
                     name:'areaName',
                     labelWidth:90,
                     width:250,
@@ -111,25 +111,25 @@ Ext.define('QH.view.base.StaffView' ,{
                 },
                 items:[{
                     xtype:'textfield',
-                    fieldLabel:'职位',
+                    fieldLabel:'管理人员',
                     name:'manager1',
                     labelWidth:90,
                     width:250,
                     length:20,
-                    vtypeText : '职位最多可输入20个字符，只允许输入中文和英文',
+                    vtypeText : '管理人员最多可输入20个字符，只允许输入中文和英文',
                     vtype: 'chnEng'
                 },{
                     xtype:'textfield',
-                    fieldLabel:'电话',
+                    fieldLabel:'联系电话',
                     name:'tel1',
                     labelWidth:70,
                     width:230,
-                    length:20,
-                    vtypeText : '电话最多可输入50个字符，只能输入数字和符号',
+                    length:50,
+                    vtypeText : '联系电话最多可输入50个字符，只能输入数字和符号',
                     vtype: 'phone'
                 },{
                     xtype:'combobox',
-                    fieldLabel:'邮箱',
+                    fieldLabel:'状态',
                     editable: false,
                     name:'status',
                     labelWidth :90,
@@ -167,7 +167,7 @@ Ext.define('QH.view.base.StaffView' ,{
                 xtype : 'button',
                 text : '添加',
                 name : 'btn-add',
-                //action:'save',
+                action:'save',
                 iconCls: 'btn-add'
             },{
                 xtype : 'button',
@@ -187,27 +187,27 @@ Ext.define('QH.view.base.StaffView' ,{
             },{
                 xtype:'button',
                 text:'启用',
-                name:'btn-openstatus',
-                iconCls: 'btn-openstatus'
+                name:'btn-openStatus',
+                iconCls: 'btn-openStatus'
             },{
                 xtype:'button',
                 text:'禁用',
-                name:'btn-closestatus',
-                iconCls: 'btn-closestatus'
+                name:'btn-closeStatus',
+                iconCls: 'btn-closeStatus'
             }]
         }],
     selModel : Ext.create('Ext.selection.CheckboxModel'), // 每行前面加一个勾选框
     columns: [
+        {header: '编号',  dataIndex: 'staff_number',  flex: 1},
         {header: '姓名', dataIndex: 'staff_name', flex: 1},
-        {header: '账户', dataIndex: 'staff_loginname', flex: 1},
         {header: '密码', dataIndex: 'staff_password', flex: 1},
+        {header: '组别', dataIndex: 'fk_roles_pk', flex: 1},
         {header: '性别', dataIndex: 'staff_sex', flex: 1},
-        {header: '电话', dataIndex: 'staff_phone', flex: 1},
-        {header: '邮箱', dataIndex: 'staff_email', flex: 1},
         {header: '生日', dataIndex: 'staff_birthday', flex: 1},
+        {header: '工位', dataIndex: 'fk_station_pk', flex: 1},
         {header: '入职日期', dataIndex: 'staff_intime', flex: 1},
-        {header: '职位', dataIndex: 'fk_roles_pk', flex: 1},
-        {header: '状态', dataIndex: 'staff_status', flex: 1}
+        {header: '电话', dataIndex: 'staff_phone', flex: 1},
+        {header: '邮箱', dataIndex: 'staff_email', flex: 1}
     ],
     bbar: {
         xtype: 'pagingtoolbar',

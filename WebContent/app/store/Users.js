@@ -1,6 +1,6 @@
-Ext.define('HT.store.Users', {
+Ext.define('QH.store.Users', {
     extend: 'Ext.data.Store',
-    model: 'HT.model.User',
+    model: 'QH.model.User',
     autoLoad: true,
     
     //proxy: {

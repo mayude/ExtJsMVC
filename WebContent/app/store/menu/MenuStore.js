@@ -1,12 +1,12 @@
 /**
  * 主界面左侧导航菜单store.
- * @author 奚志敏
+ * @author 马玉德
  * @version 1.0.0, 2015-07-07
  */
-Ext.define('HT.store.menu.MenuStore',{
+Ext.define('QH.store.menu.MenuStore',{
     extend: 'Ext.data.TreeStore',
-    requires: 'HT.model.menu.MenuModel',
- 	model: 'HT.model.menu.MenuModel',
+    requires: 'QH.model.menu.MenuModel',
+ 	model: 'QH.model.menu.MenuModel',
  	//autoLoad: true,
  	
     autoLoad: true,

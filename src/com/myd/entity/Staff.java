@@ -5,13 +5,13 @@ package com.myd.entity;
  */
 public class Staff {
     private String staff_pk;
-    private String staff_number;
+    private String staff_loginname;
     private String staff_name;
     private String staff_password;
     private String fk_roles_pk;
     private String staff_sex;
     private String staff_birthday;
-    private String fk_station_pk;
+    private String staff_status;
     private String staff_phone;
     private String staff_email;
     private String staff_intime;
@@ -24,12 +24,12 @@ public class Staff {
         this.staff_pk = staff_pk;
     }
 
-    public String getStaff_number() {
-        return staff_number;
+    public String getStaff_loginname() {
+        return staff_loginname;
     }
 
-    public void setStaff_number(String staff_number) {
-        this.staff_number = staff_number;
+    public void setStaff_loginname(String staff_loginname) {
+        this.staff_loginname = staff_loginname;
     }
 
     public String getStaff_name() {
@@ -72,12 +72,12 @@ public class Staff {
         this.staff_birthday = staff_birthday;
     }
 
-    public String getFk_station_pk() {
-        return fk_station_pk;
+    public String getStaff_status() {
+        return staff_status;
     }
 
-    public void setFk_station_pk(String fk_station_pk) {
-        this.fk_station_pk = fk_station_pk;
+    public void setStaff_status(String staff_status) {
+        this.staff_status = staff_status;
     }
 
     public String getStaff_phone() {

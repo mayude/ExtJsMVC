@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.controller.menu.MainCtrl', {
+Ext.define('QH.controller.menu.MainCtrl', {
 	extend: 'Ext.app.Controller',
 	views: [
 	    'main.HeaderView',

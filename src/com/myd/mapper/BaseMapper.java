@@ -22,11 +22,11 @@ public interface BaseMapper<T> {
 	 * 保存数据
 	 * @param user
 	 */
-	void save(T entity);
+	int save(T entity);
 	
 	/**
 	 * 删除数据
 	 * @param list
 	 */
-	void delete(List<String> list);
+	int delete(List<String> list);
 }

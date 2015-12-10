@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.main.ModifyPwdView',{ 
+Ext.define('QH.view.main.ModifyPwdView',{
 	extend: 'Ext.window.Window',
 	alias: 'widget.modifypwdview',
 	id: 'modifypwdview',

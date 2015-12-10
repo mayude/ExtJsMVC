@@ -31,8 +31,8 @@ public class StaffServiceImpl<Staff> implements StaffService<Staff> {
      * @param staff
      */
     @Override
-    public void save(Staff staff){
-        this.staffMapper.save(staff);
+    public int save(Staff staff){
+       return this.staffMapper.save(staff);
     }
 
     /**
@@ -40,8 +40,8 @@ public class StaffServiceImpl<Staff> implements StaffService<Staff> {
      * @param idList
      */
     @Override
-    public void delete(List<String> idList){
-        this.staffMapper.delete(idList);
+    public int Delete(List<String> idList) {
+       return this.staffMapper.delete(idList);
     }
 
     /**

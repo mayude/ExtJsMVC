@@ -23,8 +23,8 @@ public class UserServiceImpl<User> implements UserService<User> {
 	}
 
 	@Override
-	public void save(User user) {
-		this.userMapper.save(user);
+	public int save(User user) {
+		return this.userMapper.save(user);
 	}
 
 	@SuppressWarnings("unchecked")
@@ -44,8 +44,8 @@ public class UserServiceImpl<User> implements UserService<User> {
 	}
 
 	@Override
-	public void delete(List<String> idList) {
-		this.userMapper.delete(idList);		
+	public int  Delete(List<String> idList) {
+		return this.userMapper.delete(idList);
 	}
 	
 

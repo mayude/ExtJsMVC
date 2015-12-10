@@ -24,12 +24,12 @@ public interface BaseService<T> {
 	 * 保存数据
 	 * @param entity
 	 */
-	void save(T entity);
+	int save(T entity);
 	
 	/**
 	 * 删除数据
 	 * 支持批量删除
 	 * @param idList
 	 */
-	void delete(List<String> idList);
+	int Delete(List<String> idList);
 }

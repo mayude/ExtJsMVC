@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import com.myd.utils.AjaxMessage;
 
 /**
  * Created by myd on 15/10/21.
@@ -42,11 +43,20 @@ public class StaffController {
      */
     @RequestMapping(value = "/save",method ={RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
-    public void save(String datas){
-        List<Staff> staffs = JSON.parseArray(datas,Staff.class);
+    public AjaxMessage save(String datas){
+        //System.out.println(datas);
+        int result=0;
+        List<Staff> staffs = JSON.parseArray("["+datas+"]",Staff.class);
         for (Staff staff:staffs){
-            this.staffService.save(staff);
+            result = this.staffService.save(staff);
         }
+        String msg = "";
+        if(1 == result) {
+            msg = "保存成功！";
+        } else {
+            msg = "保存失败！！！";
+        }
+        return new AjaxMessage(1 == result ? true : false, msg);
     }
 
     /**
@@ -55,15 +65,25 @@ public class StaffController {
      */
     @RequestMapping(value = "/delete",method = {RequestMethod.GET,RequestMethod.POST})
     @ResponseBody
-    public void delete(String ids)
+    public AjaxMessage delete(String ids)
     {
+        int result=0;
         String[] tmps =ids.split(",");
         if(null !=tmps && tmps.length>0){
             List<String> idList = new ArrayList<String>();
             for(String s: tmps) {
                 idList.add(s);
             }
-            this.staffService.delete(idList);
+            result = this.staffService.Delete(idList);
+
         }
+        String msg = "库区信息删除成功！";
+        if(1 == result) {
+            msg = "库区信息删除成功！";
+        } else if(2 == result) {
+            msg = "库区信息删除失败！！！";
+        }
+
+        return new AjaxMessage(1 == result ? true : false, msg);
     }
 }

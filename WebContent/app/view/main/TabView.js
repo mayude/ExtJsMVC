@@ -3,10 +3,10 @@
  * author 马玉德
  * 2015-10-20
  */
-Ext.define('HT.view.main.TabView',{
+Ext.define('QH.view.main.TabView',{
 		extend:'Ext.tab.Panel',
 		requires:[
-		    'HT.view.main.IndexView'
+		    'QH.view.main.IndexView'
 		],
 		//layout:'fit',
 		//注意 加上widget.

@@ -1,4 +1,4 @@
-Ext.define('HT.view.user.Edit', {
+Ext.define('QH.view.user.Edit', {
     extend: 'Ext.window.Window',
     alias : 'widget.useredit',
 

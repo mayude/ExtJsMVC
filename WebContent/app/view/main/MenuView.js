@@ -3,10 +3,10 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.main.MenuView',{ 
+Ext.define('QH.view.main.MenuView',{
 	extend: 'Ext.tree.Panel', 
 	alias: 'widget.menuview',
-	requires:['HT.store.menu.MenuStore'], 
+	requires:['QH.store.menu.MenuStore'],
 	initComponent : function(){ 
 		Ext.apply(this, { 
 			title: '系统导航', 
@@ -22,7 +22,7 @@ Ext.define('HT.view.main.MenuView',{
 	        containerScroll : true, 
 	        collapsible : true, 
 	        autoScroll : false,
-	        store : Ext.create('HT.store.menu.MenuStore', {
+	        store : Ext.create('QH.store.menu.MenuStore', {
 				url: 'loginUserMenu.action'
 		    })
 		});

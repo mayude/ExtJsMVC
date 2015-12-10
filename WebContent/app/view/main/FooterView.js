@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.main.FooterView',{ 
+Ext.define('QH.view.main.FooterView',{
 	extend: 'Ext.Toolbar', 
 	//extend:'Ext.Component',
 	alias: 'widget.footerview',
@@ -11,7 +11,7 @@ Ext.define('HT.view.main.FooterView',{
 		Ext.apply(this,{ 
 			region:"south", 
 			height:23, 
-			items:['->',"技术支持 ©2015 天津市小蜜蜂计算机技术有限公司", '->'] 
+			items:['->',"技术支持 ©2015 青海微讯科技限公司", '->']
 		}); 
 		this.callParent(arguments); 
 	} 

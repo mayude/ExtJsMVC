@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.main.HelpView',{ 
+Ext.define('QH.view.main.HelpView',{
 	extend: 'Ext.menu.Menu',
 	alias: 'widget.helpview',
 	id: 'helpview',

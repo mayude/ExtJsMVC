@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-07-07
  */
-Ext.define('HT.view.main.ContactView',{ 
+Ext.define('QH.view.main.ContactView',{
 	extend: 'Ext.window.Window',
 	alias: 'widget.contactview',
 	id: 'contactview',

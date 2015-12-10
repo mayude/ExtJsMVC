@@ -3,15 +3,15 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.Viewport',{ 
+Ext.define('QH.view.Viewport',{
 	extend : 'Ext.Viewport',
 	layout : 'border',
 	hideBorders : true,
 	requires : [ 
-	    'HT.view.main.HeaderView', 
-	    'HT.view.main.MenuView',
-		'HT.view.main.TabView', 
-		'HT.view.main.FooterView' 
+	    'QH.view.main.HeaderView',
+	    'QH.view.main.MenuView',
+		'QH.view.main.TabView',
+		'QH.view.main.FooterView'
 	],
 	items : [ {
 		region : 'north',

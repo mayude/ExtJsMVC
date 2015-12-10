@@ -3,7 +3,7 @@
  * @author 马玉德
  * @version 1.0.0, 2015-10-20
  */
-Ext.define('HT.view.main.HeaderView', { 
+Ext.define('QH.view.main.HeaderView', {
 	extend : 'Ext.panel.Panel',
 	alias: 'widget.headerview',
 	name: 'headerView',
@@ -44,7 +44,7 @@ Ext.define('HT.view.main.HeaderView', {
 			bodyCls: 'header_bg',
 			flex: 5,
 			bodyCls: 'header_systemName',
-            html: '智慧仓库管理系统&nbsp标准版'
+            html: '微讯管理系统'
 		}]
 	}, {
 		xtype: 'panel',

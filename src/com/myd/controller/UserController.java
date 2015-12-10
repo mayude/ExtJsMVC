@@ -74,7 +74,7 @@ public class UserController {
         			idList.add(s);
         		}
         		
-        		this.userService.delete(idList);
+        		this.userService.Delete(idList);
         	}
         }catch(Exception e){
         	e.printStackTrace();

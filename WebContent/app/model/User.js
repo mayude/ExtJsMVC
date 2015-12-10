@@ -1,4 +1,4 @@
-Ext.define('HT.model.User', {
+Ext.define('QH.model.User', {
     extend: 'Ext.data.Model',
 
     requires: [

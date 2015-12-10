@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ExtJsMVC:war exploded">
+    <output-path>$PROJECT_DIR$/WebContent</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ExtJsMVC" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ExtJsMVC/web/Web" />
+    </root>
+  </artifact>
+</component>

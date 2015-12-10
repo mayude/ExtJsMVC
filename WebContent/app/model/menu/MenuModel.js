@@ -1,9 +1,9 @@
 /**
  * 主界面左侧导航菜单model.
- * @author 奚志敏
+ * @author 马玉德
  * @version 1.0.0, 2015-07-07
  */
-Ext.define('HT.model.menu.MenuModel', {
+Ext.define('QH.model.menu.MenuModel', {
 	extend : 'Ext.data.Model',
 	fields : [ 
 	           {name:'text',type: 'string'}, 

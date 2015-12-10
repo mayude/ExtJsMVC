@@ -1,21 +1,21 @@
-Ext.define('HT.controller.Users', {
+Ext.define('QH.controller.Users', {
     extend: 'Ext.app.Controller',
 
     stores: [
-        'Users@HT.store'
+        'Users@QH.store'
         //'HT.store.Users'
     ],
 
     models: [
         //'User@HT.model'
-        'HT.model.User'
+        'QH.model.User'
     ],
 
     views: [
         //'Edit@HT.view.user',
         //'List@HT.view.user'
-        'HT.view.user.Edit',
-        'HT.view.user.List'
+        'QH.view.user.Edit',
+        'QH.view.user.List'
     ],
 
     refs: [
@@ -37,7 +37,7 @@ Ext.define('HT.controller.Users', {
     },
 
     editUser: function(grid, record) {
-        var edit = Ext.create('HT.view.user.Edit').show();
+        var edit = Ext.create('QH.view.user.Edit').show();
 
         edit.down('form').loadRecord(record);
     },

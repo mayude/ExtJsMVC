@@ -73,7 +73,7 @@ public class MenuController {
         			idList.add(s);
         		}
         		
-        		this.menuService.delete(idList);
+        		this.menuService.Delete(idList);
         	}
         }catch(Exception e){
         	e.printStackTrace();

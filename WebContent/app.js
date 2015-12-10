@@ -7,14 +7,14 @@ Ext.Loader.setConfig({enabled:true});//必须加这句，否则会报错
 Ext.application({
 	requires: ['Ext.container.Viewport'],
 		//定义命名控件
-		name:'HT',
+		name:'QH',
 		//定义文件夹
 		appFolder:'app',
 		autoCreateViewport: true,
 		//添加控制器
 		controllers:[
-		             'HT.controller.menu.MenuCtrl',
-		             'HT.controller.menu.MainCtrl'
+		             'QH.controller.menu.MenuCtrl',
+		             'QH.controller.menu.MainCtrl'
 		             ],
 		//页面完全加载后将运行此方法
 //		launch:function() {

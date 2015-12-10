@@ -24,9 +24,9 @@ public class MenuServiceImpl<Menu> implements MenuService<Menu> {
 	}
 
 	@Override
-	public void save(Menu menu) {
+	public int save(Menu menu) {
 		System.out.println("service");
-		this.menuMapper.save(menu);
+		return this.menuMapper.save(menu);
 	}
 
 	@SuppressWarnings("unchecked")
@@ -46,8 +46,8 @@ public class MenuServiceImpl<Menu> implements MenuService<Menu> {
 	}
 
 	@Override
-	public void delete(List<String> idList) {
-		this.menuMapper.delete(idList);		
+	public int Delete(List<String> idList) {
+		return this.menuMapper.delete(idList);
 	}
 	
 
